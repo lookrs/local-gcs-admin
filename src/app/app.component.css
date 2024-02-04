@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.flex-item {
+  margin-right: 10px; /* 间隔为10px */
+}
+
+/* 最后一个元素去掉右边距 */
+.flex-item:last-child {
+  margin-right: 0;
+}
+
+.fileListContainer {
+  height: 700px; /* 设置容器的固定高度 */
+  overflow-y: auto; /* 当内容溢出时显示垂直滚动条 */
+  border: 1px solid #ccc; /* 为容器添加边框，使滚动条更明显 */
+}
+
+.currentBucket{
+  background-color: aqua;
+}
